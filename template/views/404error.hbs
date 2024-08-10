@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{>headerlinks}}
+</head>
+<body>
+    {{!-- navbar --}}
+    {{>navbar}}
+
+    <!-- main header -->
+    <div class="container-fluid" >
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                    <!-- main header left -->
+                    <div class="col-md-11 col-12 main_header_left align-items-center">
+                        <figure>
+                            <img src="images/404img.png" alt="pk" class="img-fluid" />
+                        </figure>
+                        <p>Welcome To The Technical Wolrd</p>
+                        <h1>{{errormessage}}</h1>
+                        <a href="/" > <button > Go Back </button></a>
+                    </div>
+
+
+            </div>
+        </div>
+    </div>
+</body>
+{{>footer}}
+</html>
